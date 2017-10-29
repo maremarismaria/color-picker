@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <div id="color">
+        <p id ="show-txt-rgb">rgb(120,120,120)</p>
+        <p id ="show-txt-hex">#787878</p>
+    </div>
+    <div class="slider" id="slider-r">
+        <p id="r-value">120</p>
+        <input type="range" name="red" id="red" min=0 max=255 value=120>
+        <p>R</p>
+    </div>
+    <div class="slider" id="slider-g">
+        <p id="g-value">120</p>    
+        <input type="range" name="green" id="green" min=0 max=255 value=120>
+        <p>G</p>
+    </div>
+    <div class="slider" id="slider-b">
+        <p id="b-value">120</p>
+        <input type="range" name="blue" id="blue" min=0 max=255 value=120>
+        <p>B</p>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
